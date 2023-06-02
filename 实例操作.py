@@ -62,22 +62,22 @@ print("===========================================NO.3==========================
 
 程序分析：以3月5日为例，应该先把前两个月的加起来，然后再加上5天即本年的第几天，特殊情况，闰年且输入月份大于2时需考虑多加一天"""
 
-# year = int(input("year:\n"))
-# month = int(input("month:\n"))
-# day = int(input("day:\n"))
-#
-# months = (0,31,59,90,120,151,181,212,243,273,304,334)
-# if 0< month <=12:
-#     sum = months[month -1]
-# else:
-#     print("data error")
-# sum += day
-# leap = 0
-# if (year % 400 == 0) or ((year % 4 ==0) and (year % 100 != 0)):
-#     leap = 1
-# if ( leap == 1) and (month >2):
-#     sum += 1
-# print("it is the %dth day."% sum)
+ year = int(input("year:\n"))
+ month = int(input("month:\n"))
+ day = int(input("day:\n"))
+
+ months = (0,31,59,90,120,151,181,212,243,273,304,334)
+ if 0< month <=12:
+     sum = months[month -1]
+ else:
+     print("data error")
+ sum += day
+ leap = 0
+ if (year % 400 == 0) or ((year % 4 ==0) and (year % 100 != 0)):
+     leap = 1
+ if ( leap == 1) and (month >2):
+     sum += 1
+ print("it is the %dth day."% sum)
 
 print("===========================================NO.4=========================================================")
 
@@ -87,12 +87,12 @@ print("===========================================NO.4==========================
 程序分析：我们想办法把最小的数放到x上，先将x与y进行比较，如果x>y则将x与y的值进行交换，
 然后再用x与z进行比较，如果x>z则将x与z的值进行交换，这样能使x最小。"""
 
-# l =[]
-# for i in range(3):
-#     x = int(input("integer:\n"))
-#     l.append(x)
-# l.sort()
-# print(l)
+ l =[]
+ for i in range(3):
+     x = int(input("integer:\n"))
+     l.append(x)
+ l.sort()
+ print(l)
 
 print("===========================================NO.5=========================================================")
 """NO.6
