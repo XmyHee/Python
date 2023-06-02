@@ -1,5 +1,5 @@
 #猜数字游戏代码解析
-"""
+
 import random
 a = random.randint(1,50)
 num = 0
@@ -15,7 +15,7 @@ while True:
         print( " 猜对了")
         break
 print( " 猜测次数",num)
-"""
+
 """
 这段代码是一个简单的猜数字游戏。让我为您解析一下每一部分的功能：
 
